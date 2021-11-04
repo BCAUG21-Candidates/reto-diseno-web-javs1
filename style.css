@@ -1,0 +1,155 @@
+html{
+    font: 'Spartan', sans-serif;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: 100%;
+}
+
+body{
+    background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+    background-position:  left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    width: 1440px;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+      text-align: center;
+    }
+}
+
+#title{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+#subtitle{
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+}
+
+#reviews-div div{
+    background-color: hsl(300, 24%, 96%);
+    width: 25rem;
+    background-size: cover;
+    padding: 1rem;
+    margin-top: 1.5rem;
+}
+
+#reviews-div span{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    padding-left: 1rem;
+    color:hsl(300, 43%, 22%);
+    font-weight: bold;
+}
+
+
+
+@media only screen and (min-width: 1440px) {
+    #review-1{
+        margin-left: 0rem;
+    }
+    #review-2{
+        margin-left: 2rem;
+    }
+    #review-3{
+        margin-left: 4rem;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    #reviewer{
+        width: 100%;
+    }  
+   
+}
+
+
+#customers-div{
+    margin-top: 2rem;
+}
+
+#customer{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 3%;
+    background-size: cover;
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    height: 100%;
+}
+
+#customer-2{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 3%;
+    background-size: cover;
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    height: 100%;
+}
+
+#customer-3{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 3%;
+    background-size: cover;
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    height: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    #customer-2{
+        margin-top: 1rem;
+    }
+    #customer-3{
+        margin-top: 1rem;
+    }
+    
+}
+
+@media only screen and (min-width: 1440px) {
+    #customer-2{
+        margin-top: 1.5rem;
+    }
+    #customer-3{
+        margin-top: 3rem;
+    }
+    
+}
+
+#avatar{
+    padding: 2rem 0 2rem 0;
+}
+
+#avatar-img{
+    border-radius: 50%;
+    height: 3rem;
+}
+
+#avatar-name{
+    color:hsl(300, 24%, 96%);
+    font-weight: bold;
+}
+
+#avatar-buyer{
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+}
+
+#avatar-desc{
+    font-weight: 400;
+    padding: 0 1rem 0 1rem;
+}
+
+
+#attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+#attribution a {
+    color: hsl(228, 45%, 44%)
+}
